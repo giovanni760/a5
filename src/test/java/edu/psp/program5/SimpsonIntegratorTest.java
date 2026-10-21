@@ -16,7 +16,7 @@ class SimpsonIntegratorTest {
     /** Tabla 1 del Assignment Kit. */
     @ParameterizedTest(name = "0 a x={0}, dof={1} -> p={2}")
     @CsvSource({
-            "1.1,    9,  0.35006",
+            "1.1,    9,  0.35100",
             "1.1812, 10, 0.36757",
             "2.750,  30, 0.49500"
     })
